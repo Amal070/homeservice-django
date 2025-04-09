@@ -1,0 +1,9 @@
+https://www.mongodb.com/try/download/community
+
+winget install --id MongoDB.MongoDBCommunity --source winget
+mongod --version
+mongosh
+sc query MongoDB
+net start MongoDB
+net stop MongoDB
+mkdir C:\data\db
